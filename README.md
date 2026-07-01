@@ -63,7 +63,7 @@ other_figures/           standalone notebooks used to generate additional thesis
 
 ## System Requirements
 
-**PC pipeline:** Python 3.10/3.11, Linux/Windows/macOS, no GPU, ~2 GB free disk space.
+**PC pipeline:** Python 3.10/3.11, Linux/Windows/macOS.
 
 **Raspberry Pi pipeline:** Raspberry Pi 5, Raspberry Pi OS (Bookworm), Camera Module 3 aimed at
 a fixed region of interest containing the pump, Python 3 as shipped with Raspberry Pi OS.
