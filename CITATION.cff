@@ -7,7 +7,7 @@ authors:
 version: 1.0.0
 date-released: "2026-07-01"
 license: MIT
-repository-code: "https://github.com/<fill-in-actual-repo-url>/vision-pump-anomaly-detection"
+repository-code: "https://github.com/ReyhaneVahidi/vision-pump-anomaly-detection"
 
 preferred-citation:
   type: conference-paper   
