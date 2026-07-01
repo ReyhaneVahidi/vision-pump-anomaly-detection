@@ -4,10 +4,21 @@
 # picamera2 is NOT listed here — on Raspberry Pi OS it must come from apt, not pip:
 #   sudo apt install -y python3-picamera2
 # (it depends on system libcamera bindings that pip cannot provide)
-opencv-python-headless>=4.9
-numpy>=1.26
-pandas>=2.0
-scipy>=1.13
-scikit-learn>=1.4
-joblib>=1.4
-psutil>=5.9
+#
+# Every package below is pinned to match requirements-pc.txt exactly, EXCEPT:
+#
+#   opencv-python == 4.8.0.76 (PC uses 4.12.0.88)
+#   Intentionally held back. picamera2 on this Pi targets NumPy 1.x array
+#   conventions; opencv-python 4.12 introduced a runtime incompatibility with
+#   picamera2 under that NumPy version, so opencv is pinned to the last known-
+#   good version (4.8.0.76) instead of matching the PC. This does not affect
+#   model correctness — opencv is only used for video/frame processing, never
+#   in the joblib model-unpickling or scoring path.
+
+opencv-python==4.8.0.76
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+joblib==1.5.2
+psutil==7.1.3

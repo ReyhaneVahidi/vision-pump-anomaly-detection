@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using the metadata below. Full paper citation to be added upon publication."
+message: "If you use this software, please cite it using the metadata below. This citation is for the software artifact only — see preferred-citation below for the accompanying paper once published."
 title: "Vision-Based Peristaltic Pump Anomaly Detection"
 authors:
   - family-names: Vahidi
@@ -7,4 +7,26 @@ authors:
 version: 1.0.0
 date-released: "2026-07-01"
 license: MIT
-repository-code: "https://github.com/<your-username>/vision-pump-anomaly-detection"
+repository-code: "https://github.com/<fill-in-actual-repo-url>/vision-pump-anomaly-detection"
+
+preferred-citation:
+  type: conference-paper   
+  title: "An Automated In-Vitro Platform for Long-Term Evaluation of Endourological Medical Devices - Integrating Urodynamic Micturition Simulation and Real-Time Anomaly Detection"
+  authors:
+    - family-names: Preis
+      given-names: Alexander
+    - family-names: Vahidi
+      given-names: Reyhane
+    - family-names: Lee
+      given-names: I-En
+    - family-names: Walter
+      given-names: Jonas
+    - family-names: Franke
+      given-names: Jörg
+    - family-names: Fürst
+      given-names: Jens
+  institution:
+    name: "Institute for Factory Automation and Production Systems, Friedrich-Alexander-Universität Erlangen-Nürnberg"
+  year: 2026            # PLACEHOLDER — update to actual publication year
+  # venue/collection-title, volume, doi, start/end pages: add once accepted
+  notes: "Not yet published. Fields above (year, venue, DOI) to be finalized upon acceptance."
