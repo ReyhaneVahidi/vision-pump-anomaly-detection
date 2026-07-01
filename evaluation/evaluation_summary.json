@@ -1,0 +1,62 @@
+{
+    "mahalanobis": {
+        "n_normal": 31,
+        "false_positives": 2,
+        "false_positive_rate": 0.0645,
+        "threshold": 6.318793,
+        "n_anomalous": 24,
+        "tp": 24,
+        "detection_rate": 1.0,
+        "precision": 0.9231,
+        "recall": 1.0,
+        "f1": 0.96
+    },
+    "lof": {
+        "n_normal": 31,
+        "false_positives": 2,
+        "false_positive_rate": 0.0645,
+        "threshold": 1.549587,
+        "n_anomalous": 24,
+        "tp": 22,
+        "detection_rate": 0.9167,
+        "precision": 0.9167,
+        "recall": 0.9167,
+        "f1": 0.9167
+    },
+    "isoforest": {
+        "n_normal": 31,
+        "false_positives": 2,
+        "false_positive_rate": 0.0645,
+        "threshold": 0.587059,
+        "n_anomalous": 24,
+        "tp": 24,
+        "detection_rate": 1.0,
+        "precision": 0.9231,
+        "recall": 1.0,
+        "f1": 0.96
+    },
+    "elliptic_envelope": {
+        "n_normal": 31,
+        "false_positives": 2,
+        "false_positive_rate": 0.0645,
+        "threshold": 115.965043,
+        "n_anomalous": 24,
+        "tp": 15,
+        "detection_rate": 0.625,
+        "precision": 0.8824,
+        "recall": 0.625,
+        "f1": 0.7317
+    },
+    "ocsvm": {
+        "n_normal": 31,
+        "false_positives": 3,
+        "false_positive_rate": 0.0968,
+        "threshold": -0.089095,
+        "n_anomalous": 24,
+        "tp": 24,
+        "detection_rate": 1.0,
+        "precision": 0.8889,
+        "recall": 1.0,
+        "f1": 0.9412
+    }
+}

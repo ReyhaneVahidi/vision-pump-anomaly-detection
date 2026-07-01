@@ -1,0 +1,19 @@
+{
+    "trained_at": "2026-05-31T11:55:44",
+    "n_training_days": 3,
+    "n_training_cycles": 21,
+    "interval_mean": 13790.706,
+    "interval_std": 4097.829,
+    "duration_mean": 40.031,
+    "duration_std": 0.378,
+    "expected_cycles_per_day": 7,
+    "expected_hours": [
+        1.682593,
+        5.110093,
+        8.537593,
+        11.965093,
+        15.392593,
+        18.820093,
+        22.247685
+    ]
+}

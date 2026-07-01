@@ -1,0 +1,13 @@
+# Raspberry Pi 5 requirements: real-time capture + inference pipeline.
+# Install with:  pip install -r requirements-pi.txt
+#
+# picamera2 is NOT listed here — on Raspberry Pi OS it must come from apt, not pip:
+#   sudo apt install -y python3-picamera2
+# (it depends on system libcamera bindings that pip cannot provide)
+opencv-python-headless>=4.9
+numpy>=1.26
+pandas>=2.0
+scipy>=1.13
+scikit-learn>=1.4
+joblib>=1.4
+psutil>=5.9

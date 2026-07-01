@@ -1,0 +1,13 @@
+# PC-side requirements: training, feature engineering, evaluation, comparison plots.
+# Install with:  pip install -r requirements-pc.txt
+opencv-python==4.9.0.80
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.8.0
+matplotlib==3.7.1
+joblib==1.5.3
+
+# Optional: only needed to fit/load the ECOD model in PC/training.py.
+# training.py detects its absence and skips ECOD gracefully if not installed.
+# pyod
